@@ -22,6 +22,11 @@ const Hero = () => {
     const StyledImg = styled("img")(({ theme }) => ({
         borderRadius: "50%",
         width: "80%",
+        display: "flex",
+        // alignItems: "center",
+        // justifyContent: "center",
+        margin: "0 auto",
+
         border: `1px solid ${theme.palette.primary.contrastText}`
     }))
 
